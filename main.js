@@ -16,7 +16,7 @@ Webcam.snap(function(data_uri){
 
 }
 
-classifier=ml5.imageClassifier('https://teachablemachine.withgoogle.com/train/image/1DZCjBksShwY1be-e7wYfav7kTthfBbvU',modelLoaded)
+classifier=ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/WoGBkmUhA/model.json',modelLoaded)
 function modelLoaded(){
       console.log("modelo carregado")
 }
